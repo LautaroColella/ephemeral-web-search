@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Google No Account",
+  "version": "1.0.2",
+  "description": "Search Google without using the Google cookies from your normal Firefox session.",
+  "permissions": ["contextualIdentities", "cookies", "tabs"],
+  "background": { "scripts": ["background.js"] },
+  "omnibox": { "keyword": "@noaccount" },
+  "browser_specific_settings": { "gecko": { "id": "google-no-account@local" } }
+}
